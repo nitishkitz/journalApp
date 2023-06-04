@@ -61,7 +61,7 @@
                 android:adjustViewBounds="true"
                 android:cropToPadding="true"
                 android:scaleType="fitXY"
-                android:background="@{journal.imageUrl}"
+                android:background="@{Integer.parseInt(journal.imageUrl)}"
                 />
 
 

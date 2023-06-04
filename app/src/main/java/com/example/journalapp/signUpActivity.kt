@@ -50,7 +50,6 @@ class signUpActivity : AppCompatActivity() {
     }
 
     private fun updateUI(user: FirebaseUser?) {
-        TODO("Not yet implemented")
     }
 
     public override fun onStart() {
@@ -63,6 +62,5 @@ class signUpActivity : AppCompatActivity() {
     }
 
     private fun reload() {
-        TODO("Not yet implemented")
     }
 }

@@ -1,9 +1,6 @@
 package com.example.journalapp
 
-import android.view.View
 import android.widget.ImageView
-import androidx.annotation.DrawableRes
-import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
 import com.google.firebase.Timestamp
@@ -12,7 +9,7 @@ import com.google.firebase.Timestamp
 data class Journal(
     val title:String,
     val thoughts: String,
-    val imageUrl: Int,
+    val imageUrl: String,
 
     val userId:String,
     val timeAdded: Timestamp,
